@@ -6,7 +6,10 @@
 
 //Code here
 
-
+const me = {
+  name: `Keith`,
+  age: 22,
+};
 
 //////////////////////////// PROBLEM 2 ////////////////////////////
 
@@ -16,7 +19,12 @@
 //and goodBoy/goodGirl (a boolean).
 
 //Code here
-
+const dog = {
+  name: `max`,
+  color: `brown`,
+  age: 4,
+  goodBoy: true,
+};
 
 
 //////////////////////////// PROBLEM 3 ////////////////////////////
@@ -24,14 +32,14 @@
 
 //Code here
 
-
+console.log(dog.name);
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
 
-
+console.log(dog[`color`]);
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
 /*
@@ -41,6 +49,14 @@
 
 //Code here
 
+const favoriteThings = {
+  band: `MYTH&ROID`,
+  food: `Hamburgers`,
+  person: `Father`,
+  book: `Trash of the Counts Family`,
+  movie: `Coco`,
+  holiday: `Christmas`,
+}
 
 /*
   After you've made your object, use bracket or dot notation to add another key named 'car' with the value being your favorite car and then another key named 'show' with the value being your favorite show.
@@ -48,6 +64,9 @@
 
 //Code here
 
+favoriteThings.car = `Mustang`;
+
+favoriteThings[`show`] = `Re:Zero`;
 
 /*
   Now use bracket or dot notation to change the value of the food key in your favoriteThings object to be 'Chicken Nuggets'
@@ -56,6 +75,11 @@
 
 //Code here
 
+favoriteThings.food = `Chicken Nuggets`;
+
+favoriteThings[`book`] = `Harry Potter`;
+
+console.log(favoriteThings);
 
 //////////////////////////// PROBLEM 6 ////////////////////////////
 
