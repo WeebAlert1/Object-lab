@@ -133,6 +133,15 @@ function totalPopulation(obj) {
   return utah + california + texas + arizona;
 }
 
+//check code
+const populationObj = {
+  utah: 12,
+  california: 13,
+  texas: 21,
+  arizona: 42
+}
+
+console.log('Total population: ', totalPopulation(populationObj));
 
 //////////////////////////// PROBLEM 9 ////////////////////////////
 
